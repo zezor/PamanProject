@@ -9,4 +9,4 @@ class Employees(models.Model):
     phone_number = models.CharField(max_length=15)
     email = models.EmailField()
     address = models.CharField(max_length=200)
-    staff_id = models.CharField(max_length=10)
+
